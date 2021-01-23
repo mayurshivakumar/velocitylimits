@@ -1,0 +1,6 @@
+velocitylimit:
+  maxdailyloadlimit: 5000
+  maxdailytransactions: 3
+  maxweeklyloadlimit: 20000
+  inputfile: "input.txt"
+  outputfile: "output.txt"
