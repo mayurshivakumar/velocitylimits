@@ -39,6 +39,7 @@ We value well-structured, self-documenting code with sensible test coverage. Des
 - TODO comments should be worked out to further improve the code. 
 
 ## Future improvements
+- Adding worker pool.
 - Right now there are three go routines running for each stage(read request, process request and write response). Multiple workers/go routines can be added at appropriate step(s). 
 - Refactor the go routines to steps and write tests for them. 
 - Improve error handling.
